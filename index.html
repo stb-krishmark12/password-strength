@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+</head>
+<body>
+
+    <div class="card">
+        <Label>Password</Label>
+        <form>
+        <input type="password" onchange="check()" id="passwordInput">
+        <a onclick="showpass()">Show</a>
+        </form>
+        <h1 class="message" id="message"> </h1>
+    <div class="progress">
+       
+            <div class="weak" id="weak"></div>
+            <div class="medium" id="medium"></div>
+            <div class="strong" id="strong"></div>
+    </div>
+    </div>
+    
+</body>
+</html>

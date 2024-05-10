@@ -1,0 +1,68 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+
+}
+
+.card{
+    margin-top: 200px;
+   height: 200px;
+   width: 400px;
+   background-color: rgb(207, 207, 255);
+   display: flex;
+   justify-content: center;
+   border-radius: 10px;
+   flex-direction: column;
+   box-shadow: 10px 10px 30px rgb(138, 138, 138);
+
+
+}
+
+label{
+    padding-left: 20px;
+    font-size: 30px;
+}
+
+input{
+    height: 30px;
+    width: 90%;
+    border-radius: 10px;
+    margin-left:20px ;
+}
+
+
+.progress{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.weak,.medium,.strong{
+    height: 10px;
+    width: 130px;
+    border-radius: 10px;
+    background-color: rgb(114, 114, 114);
+ 
+    z-index: 1;
+}
+
+h1{
+    padding-left: 20px;
+    padding-top: 10px;
+    font-size: medium;
+}
+
+a{
+    position: absolute;
+    right:220px ;
+    padding-top: 8px;
+    color: blue;
+}
+a:hover {
+    cursor:pointer;
+   }
